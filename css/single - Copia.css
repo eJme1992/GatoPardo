@@ -1,0 +1,1685 @@
+/*Atelier*/
+.atelier #image_big {
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+	position: relative;
+	overflow: hidden;
+}
+.atelier #image_big article{
+    float: left;
+	width: 100%;
+    text-align: center;
+}
+.atelier #image_big #wrap_img{
+	float: left;
+	width: 100%;
+	background-position: center;
+	height: 280px;
+}
+.atelier #image_big #wrap_in {
+    float: left;
+    width: 78%;
+    text-align: center;
+    margin: 15px 9% 0 9%;
+    padding: 25px 2%;
+    background-color: #F2F2F2;
+}
+.atelier #image_big #date {
+    text-transform: uppercase;
+    font-family: 'RobotoLight';
+    color: #666666;
+    font-size: 90%;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.atelier #image_big #title {
+    margin-bottom: 5px;
+    font-family: 'MerriweatherBold';
+    color: #4D4D4D;
+    padding: 10px 8% 10px 8%;
+    font-size: 90%;
+    position: relative;
+}
+.atelier #image_big #title::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    left: 25%;
+    border-top: 1px solid #9A8A8A;
+}
+.atelier #image_big #title::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    left: 25%;
+    border-top: 1px solid #9A8A8A;
+}
+.atelier #image_big #meta {
+    display: block;
+}
+.atelier #image_big #meta span {
+    display: block;
+    font-family: 'RobotoLight';
+    color: #666;
+    font-size: 80%;
+}
+.atelier #image_big #meta span {
+    display: block;
+    font-family: 'RobotoLight';
+    color: #666;
+    font-size: 80%;
+}
+.atelier #content_at {
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.atelier #content_at #line_middle {
+    float: left;
+    width: 90%;
+    position: relative;
+    z-index: 1;
+    margin: 0 5% 10px 5%;
+}
+.atelier #content_at #line_middle:before {
+    border-top: 1px solid #F2F2F2;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    width: 90%;
+    z-index: -1;
+}
+.atelier #content_at #line_middle span {
+    font-family: 'RobotoLight';
+    color: #B3B3B3;
+    font-size: 100%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #fff;
+    padding: 0 5px;
+}
+.atelier #content_at #cont_in {
+    float: left;
+    width: 100%;
+}
+.atelier #content_at #cont_in #cont_at {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.atelier #content_at #cont_in p {
+    font-family: 'RobotoLight';
+    color: #4D4D4D;
+    font-size: 101%;
+    margin: 0 5% 20px 5%;
+    text-align: justify;
+    line-height: 130%;
+    width: 90%;
+}
+.atelier #content_at #meta_in {
+    float: right;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.atelier #content_at #meta_in #meta_wrap {
+    float: right;
+    width: 100%;
+    position: relative;
+}
+.atelier #content_at #meta_in #meta_wrap section:last-child{
+	margin-bottom: 0;
+}
+.atelier #content_at #meta_in #meta_wrap section{
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.atelier .widget_images_post_trav #images_post_a {
+    float: left;
+    width: 100%;
+	text-align: center;
+}
+.atelier .widget_images_post_trav #images_post_a div {
+    float: left;
+    margin: 0 5% 20px 5%;
+    width: 90%;
+    overflow: hidden;
+}
+.atelier #content_at #link_m {
+    float: left;
+    width: 90%;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    padding: 25px 5%;
+    text-align: center;
+    margin: 30px 0;
+    color: #4D4D4D;
+    font-family: 'MerriweatherBold';
+    font-size: 85%;
+}
+.atelier #content_at #link_m a {
+    color: #4D4D4D;
+}
+/*Normal*/
+.normal #image_big {
+    float: left;
+    width: 100%;
+}
+.normal #image_big article{
+	float: left;
+    width: 100%;
+    overflow: hidden;
+}
+.normal #image_big article #wrap_im{
+	float: left;
+	width: 100%;
+	background-position: center;
+	height: 280px;
+}
+.normal #image_big article #wrap_in {
+    float: left;
+    width: 80%;
+    text-align: center;
+    margin: 15px 9% 0 9%;
+    padding: 25px 2%;
+    background-color: #F2F2F2;
+}
+.normal #image_big article #date {
+    text-transform: uppercase;
+    font-family: 'RobotoLight';
+    color: #666666;
+    font-size: 90%;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.normal #image_big article #title {
+    margin-bottom: 5px;
+    font-family: 'MerriweatherBold';
+    color: #4D4D4D;
+    padding: 10px 8% 10px 8%;
+    font-size: 90%;
+    position: relative;
+}
+.normal #image_big article #title::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    left: 25%;
+    border-top: 1px solid #9A8A8A;
+}
+.normal #image_big article #title::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    left: 25%;
+    border-top: 1px solid #9A8A8A;
+}
+.normal #image_big article #meta {
+    display: block;
+}
+.normal #image_big article #meta span {
+    display: block;
+    font-family: 'RobotoLight';
+    color: #666;
+    font-size: 80%;
+}
+.normal #image_big article #excerpt {
+	float: left;
+    width: 70%;
+    padding: 20px 15%;
+    text-align: center;
+    border-bottom: 1px solid #9A8A8A;
+    margin-bottom: 20px;
+	 font-family: 'MerriweatherLightItalic';
+    color: #4D4D4D;
+    font-size: 95%;
+    line-height: 150%;
+}
+.normal #content_no{
+	float: left;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.normal #content_no  p {
+    font-family: 'RobotoLight';
+    color: #4D4D4D;
+    font-size: 101%;
+    margin: 0 5% 20px 5%;
+    text-align: justify;
+    line-height: 130%;
+    width: 90%;
+}
+.normal #content_no img {
+    max-width: 100%;
+    height: auto !important;
+}
+.normal #meta_in{
+	float: left;
+	width: 100%;
+}
+.normal #meta_in #meta_wrap {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #9A8A8A;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.normal #meta_in #meta_wrap section{
+	padding-top: 20px;
+    border-top: 1px solid #9A8A8A;
+}
+/*Video*/
+.video #video_int_left {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.video #up_vid {
+    float: left;
+    width: 100%;
+    height: 280px;
+    position: relative;
+}
+.video #vid_play {
+    float: left;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.video #down_vid {
+    float: left;
+    width: 100%;
+}
+.video #down_vid h1 {
+    float: left;
+    width: 100%;
+    font-family: 'MerriweatherBold';
+    color: #4D4D4D;
+    font-size: 120%;
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+.video #down_vid #left_v {
+    float: left;
+    width: 100%;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+.video #down_vid #left_v #date_v {
+    float: left;
+    width: 100%;
+    font-family: 'RobotoLight';
+    color: #666666;
+    text-transform: uppercase;
+    font-size: 90%;
+    margin-bottom: 15px;
+}
+.video #down_vid #left_v #date_v:after {
+    content: '';
+    float: left;
+    width: 50%;
+    margin: 10px 25% 0 25%;
+    background-color: #9A8A8A;
+    height: 1px;
+}
+.video #down_vid #left_v #info_v {
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.video #down_vid #left_v #info_v span {
+    display: block;
+    font-family: 'RobotoLight';
+    color: #666666;
+    font-size: 90%;
+    padding-left: 10px;
+}
+.video #down_vid #left_v #info_v span {
+    display: block;
+    font-family: 'RobotoLight';
+    color: #666666;
+    font-size: 90%;
+    padding-left: 10px;
+}
+.video #video_int_right {
+    float: right;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.video #video_int_right #cont_vi {
+    float: left;
+    width: 90%;
+	margin: 0 5%;
+}
+.video #video_int_right #cont_vi p {
+    float: left;
+    width: 100%;
+    font-family: 'RobotoLight';
+    color: #4D4D4D;
+    font-size: 90%;
+    margin-bottom: 10px;
+}
+.video #zone_ad_video{
+	float: left;
+	width: 100%;
+}
+.video #zone_ad_video section{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+/*Foto*/
+.foto #zone_foto_in {
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.foto #zone_foto_in #wrap_tit_im {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    height: 110px;
+}
+.foto #wrap_tit_im h1 {
+    font-family: 'MerriweatherBold';
+    color: #4D4D4D;
+    font-size: 200%;
+    width: 50%;
+    margin: auto;
+}
+.foto #wrap_tit_im #meta_im {
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+}
+.foto #wrap_tit_im #meta_im #fecha {
+    text-transform: uppercase;
+    font-family: 'RobotoLight';
+    color: #666666;
+    font-size: 100%;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-bottom: 1px solid #9A8A8A;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.foto #wrap_tit_im #meta_im span {
+    display: block;
+    font-family: 'RobotoLight';
+    color: #666;
+    font-size: 90%;
+}
+.foto #wrap_tit_im #meta_im div {
+    display: block;
+    font-family: 'RobotoLight';
+    color: #666;
+    font-size: 90%;
+}
+.foto #wrap_tit_im #meta_im span {
+    display: inline-block;
+    font-family: 'RobotoLight';
+    color: #666;
+    font-size: 90%;
+}
+.foto #fotog_big {
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+    position: relative;
+    height: 290px;
+    overflow: hidden;
+}
+.foto #zone_cont_img {
+    float: left;
+    width: 80%;
+    margin: 0 10% 40px 10%;
+    text-align: center;
+}
+.foto #zone_cont_img p {
+    font-family: 'RobotoLight';
+    color: #4D4D4D;
+    font-size: 100%;
+    margin-bottom: 20px;
+}
+.foto #zone_related #wrap_gal #wrapper_bu article .vcenter img {
+    display: none;
+}
+/*Zone Related*/
+#zone_related {
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+}
+#zone_related h3 {
+    float: left;
+    width: 90%;
+    font-family: 'GenBkBasB';
+    margin: 0 5% 20px 5%;
+    color: #4D4D4D;
+    font-size: 300%;
+    margin-bottom: 20px;
+}
+#zone_related article {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+	margin-bottom: 20px;
+}
+#zone_related #wrap_img {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    height: 230px;
+    position: relative;
+}
+#zone_related #wrap_img #wrap_center{
+	float: left;
+	width: 100%;
+	background-color: rgba(0,0,0,0.4);
+	height: 100%;
+	position: absolute;
+    top: 0;
+}
+#zone_related #text_s {
+    float: left;
+    width: 90%;
+    margin: 10px 5%;
+}
+#zone_related article #title {
+    float: left;
+    width: 100%;
+    font-family: 'MerriweatherBold';
+    color: #4D4D4D;
+    font-size: 90%;
+    margin-bottom: 10px;
+}
+#zone_related article #excerpt {
+    float: left;
+    width: 100%;
+    font-family: 'RobotoLight';
+    color: #4D4D4D;
+    font-size: 85%;
+    margin-bottom: 10px;
+}
+#zone_related article #btn_vm {
+    text-align: center;
+    font-family: 'RobotoBlack';
+    color: #1A1A1A;
+    font-size: 80%;
+    text-transform: uppercase;
+}
+/*Bold*/
+.single p bold,
+.single p b,
+.single p a {
+    font-family: 'RobotoBold';
+}
+/*Quote*/
+.single #cont_in blockquote {
+    width: 90%;
+    margin: 10px 5% 20px 5%;
+    text-align: center;
+}
+.single blockquote p {
+    color: #4D4D4D;
+    font-size: 110%;
+    font-family: 'MerriweatherLightItalic';
+    text-align: center;
+    line-height: 140%;
+    margin-bottom: initial;
+}
+/*Slider*/
+#wrap_gal {
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+    min-height: 335px;
+    position: relative;
+}
+#wrap_gal article {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.conclave{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.holder_bu_center {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 5%;
+    width: 90%;
+    height: 100%;
+    -webkit-transition: width 1s, height 1s, top 1s, left 1s;
+    -moz-transition: width 1s, height 1s, top 1s, left 1s;
+    -o-transition: width 1s, height 1s, top 1s, left 1s;
+    -ms-transition: width 1s, height 1s, top 1s, left 1s;
+    transition: width 1s, height 1s, top 1s, left 1s;
+}
+.holder_bu_awayR1 {
+    position: absolute;
+    top: 0;
+    left: 97%;
+    width: 70%;
+    height: 100%;
+    -webkit-transition: width 1s, height 1s, top 1s, left 1s;
+    -moz-transition: width 1s, height 1s, top 1s, left 1s;
+    -o-transition: width 1s, height 1s, top 1s, left 1s;
+    -ms-transition: width 1s, height 1s, top 1s, left 1s;
+    transition: width 1s, height 1s, top 1s, left 1s;
+}
+.holder_none {
+    position: absolute;
+    top: 0;
+    left: 90%;
+    width: 10%;
+    height: 100%;
+    visibility: hidden;
+}
+.holder_bu_awayL1 {
+    position: absolute;
+    top: 0;
+    left: -68%;
+    width: 70%;
+    height: 100%;
+    -webkit-transition: width 1s, height 1s, top 1s, left 1s;
+    -moz-transition: width 1s, height 1s, top 1s, left 1s;
+    -o-transition: width 1s, height 1s, top 1s, left 1s;
+    -ms-transition: width 1s, height 1s, top 1s, left 1s;
+    transition: width 1s, height 1s, top 1s, left 1s;
+}
+.holder_bu {
+    cursor: pointer;
+}
+.next_3d {
+    position: absolute;
+    top: 34%;
+    height: 50px;
+    margin: auto !important;
+    color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    right: 0;
+    background: rgba(0,0,0,0.5) url(http://travesiasdigital.com/wp-content/themes/travesias_2017_m/img/arrow-right.png) center left;
+    cursor: pointer;
+    z-index: 11;
+}
+.prev_3d {
+    position: absolute;
+    top: 34%;
+    height: 50px;
+    margin: auto !important;
+    color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+	left: 0;
+    background: rgba(0,0,0,0.5) url(http://travesiasdigital.com/wp-content/themes/travesias_2017_m/img/arrow-left.png) center left;
+    cursor: pointer;
+    z-index: 11;
+}
+/*Change_link*/
+.changlink{
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+/*Shred Fixed*/
+#share_fixed{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(255,255,255,0.9);
+	border-top: 1px solid #E6E6E6;
+	z-index: 10;
+}
+#share_fixed a#tw{background-image: url(http://travesiasdigital.com/wp-content/themes/travesias_2017_m/img/tw_f.png);}
+#share_fixed a#fb{background-image: url(http://travesiasdigital.com/wp-content/themes/travesias_2017_m/img/fb_f.png);}
+#share_fixed a#gp{background-image: url(http://travesiasdigital.com/wp-content/themes/travesias_2017_m/img/gp_f.png);}
+#share_fixed a#wp{background-image: url(http://travesiasdigital.com/wp-content/themes/travesias_2017_m/img/wp_f.png);}
+#share_fixed a#tg{background-image: url(http://travesiasdigital.com/wp-content/themes/travesias_2017_m/img/tg_f.png);}
+#share_fixed a#ma{background-image: url(http://travesiasdigital.com/wp-content/themes/travesias_2017_m/img/ma_f.png);}
+#share_fixed a:last-child{
+	border-right: none;
+}
+#share_fixed a{
+	float: left;
+    width: 16.4%;
+    height: 63px;
+    border-right: 1px solid #E6E6E6;
+    background-repeat: no-repeat;
+    background-position: center;
+	background-size: 70%;
+}
+
+
+
+
+#image_big img {
+    height: auto;
+    max-width:100%;
+}
+#wrap_center {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.atelier #image_big #wrap_in {
+	float: left;
+    width: 78%;
+    text-align: center;
+    margin: 15px 9% 0 9%;
+    padding: 25px 2%;
+	background-color: #F2F2F2;
+}
+#content_at #wrap_gal{
+	overflow: hidden;
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+    min-height: 320px;
+    position: relative;
+}
+#content_at #wrapper_bu{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#content_at #wrapper_bu article{
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+#image_big #date {
+    text-transform: uppercase;
+    font-family: 'RobotoLight';
+    color: #666666;
+    font-size: 90%;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+#image_big #title::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    left: 25%;
+    border-top: 1px solid #9A8A8A;
+}
+#image_big #title::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    left: 25%;
+    border-top: 1px solid #9A8A8A;
+}
+#image_big #title{
+    margin-bottom: 5px;
+    font-family: 'MerriweatherBold';
+    color: #4D4D4D;
+	padding: 10px 8% 10px 8%;
+    font-size: 90%;
+	position: relative;
+}
+#image_big #meta{
+	display: block;
+}
+#image_big #meta span {
+	display: block;
+    font-family: 'RobotoLight';
+    color: #666;
+    font-size: 80%;
+}
+#content_at{
+	float: left;
+	width: 100%;
+	margin-bottom: 40px;
+}
+#content_at #line_middle{
+    float: left;
+    width: 90%;
+    position: relative;
+    z-index: 1;
+	margin: 0 5% 10px 5%;
+}
+#content_at #line_middle:before {
+    border-top: 1px solid #F2F2F2;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    width: 90%;
+    z-index: -1;
+}
+#content_at #line_middle span {
+    font-family: 'RobotoLight';
+    color: #B3B3B3;
+    font-size: 100%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #fff;
+    padding: 0 5px;
+}
+#content_at #cont_in{
+	float: left;
+	width: 100%;
+}
+#content_at #cont_in #share{
+	float: left;
+	width: 90%;
+	margin: 30px 5%;
+}
+#content_at #cont_in #share span{
+	float: left;
+	font-family: 'MerriweatherLight' ;
+	color: #BFBFBF;
+	font-size: 90%;
+	text-transform: uppercase;
+	margin-right: 10px;
+	line-height: 182%;
+}
+#content_at #cont_in #share a#tw{
+	border-left:  1px solid #E6E6E6;
+}
+#content_at #cont_in #share a{
+	float: left;
+	height: 28px;
+	border-right: 1px solid #E6E6E6;
+	background-image: url(http://travesiasdigital.com/wp-content/themes/travesias_2017_m/img/share.png);
+	background-repeat: no-repeat;
+	padding: 0 7px;
+}
+#content_at #cont_in #share a#ma:last-child{border-right: none}
+#content_at #cont_in #share a#tw{background-position: 9px 0;width: 28px;}
+#content_at #cont_in #share a#fb{background-position: -35px 0;width: 25px;}
+#content_at #cont_in #share a#gp{background-position: -79px 0;width: 32px;}
+#content_at #cont_in #share a#pr{background-position: -123px 0;width: 35px;}
+#content_at #cont_in #share a#ma{background-position: -170px 0;width: 33px;}
+#content_at #cont_in #share a#tp{background-position: -213px 0;width: 33px;}
+#content_at #cont_in #cont_at{
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.normal .widget_ad_boxbanner{
+	padding-top: 20px;
+	border-top: 1px solid #9A8A8A;
+}
+.normal #meta_in{
+	float: left;
+	width: 100%;
+}
+.normal #meta_in #meta_wrap{
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #9A8A8A;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+.normal #image_big{
+	float: left;
+	width: 100%;
+}
+.normal #image_big .cover{
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+.normal #image_big #wrap_in {
+	float: left;
+    width: 80%;
+    text-align: center;
+    margin: 15px 9% 0 9%;
+    padding: 25px 2%;
+	background-color: #F2F2F2;
+}
+.single #cont_in p{
+	font-family: 'RobotoLight';
+    color: #4D4D4D;
+    font-size: 101%;
+    margin: 0 5% 20px 5%;
+    text-align: justify;
+    line-height: 130%;
+	width: 90%;
+}
+.single #cont_in p bold,
+.single #cont_in p b,
+.single #cont_in p a{
+	font-family: 'RobotoBold';
+}
+.single #cont_in p:first-child:first-letter {
+	float: left;
+	margin: 0 0.09em -0.2em 0;
+	font-family: 'MerriweatherBold';
+	font-size: 580%;
+	line-height: 100%;
+}
+.single #cont_in p img{
+	max-width: 100%;
+	height: auto;
+}
+.single #cont_in blockquote{
+	width: 90%;
+	margin: 10px 5% 20px 5%;
+	text-align: center;
+}
+.single #cont_in blockquote p{
+	color: #4D4D4D;
+    font-size: 110%;
+    font-family: 'MerriweatherLightItalic';
+    text-align: center;
+    line-height: 140%;
+    margin-bottom: initial;
+}
+.single #cont_in blockquote p:first-child:first-letter {
+	float: initial !important;
+	margin: initial !important;
+	font-family: 'RobotoLight' !important;
+	font-size: 101%;
+	line-height: 130%;
+}
+#content_at #meta_in{
+	float: right;
+	width: 100%;
+	margin-bottom:20px;
+}
+#content_at #meta_in #meta_wrap{
+	float: right;
+	width: 100%;
+	position: relative;
+}
+#content_at #meta_in #meta_wrap .widget_ad_boxbanner{
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.limit_mo .widget{
+	float: left;
+	width: 100%;
+}
+.normal #content_at #cont_in{
+	width: 100%;
+}
+.normal #content_at #cont_in img{
+	max-width: 100%;
+	height: auto !important;
+}
+.widget_images_post_trav {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.widget_images_post_trav #images_post_a{
+	float: left;
+	width: 100%;
+}
+.widget_images_post_trav #images_post_a div{
+	float: left;
+	margin:0 5% 20px 5%;
+	width: 90%;
+	overflow: hidden;
+}
+.galleria {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+}
+.owl-item {
+  display: table-cell;
+  float: none !important;
+  vertical-align: middle;
+}
+.owl-carousel .owl-prev,
+.owl-carousel .owl-next {
+	position: absolute;
+    top: 40%;
+    height: 46px;
+    margin: auto !important;
+    color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+}
+.owl-prev{
+	right: 100%;
+	background-image: url(http://travesiasdigital.com/wp-content/themes/travesias_2017/img/arrow-left.png);
+	background-position: center right;
+}
+.owl-next{
+	left: 100%;
+	background-image: url(http://travesiasdigital.com/wp-content/themes/travesias_2017/img/arrow-right.png);
+	background-position: center left;
+}
+#content_at #link_m{
+	float: left;
+	width: 90%;
+	border-top: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	padding: 25px 5%;
+	text-align: center;
+	margin: 30px 0;
+	color: #4D4D4D;
+	font-family: 'MerriweatherBold';
+	font-size: 85%;
+	
+}
+#content_at #link_m a{
+	color: #4D4D4D;
+}
+.limiter{
+	display: inline-block;
+	width: 100%;
+	background-color: #9A8A8A;
+	height: 1px;
+	margin-bottom: 40px;
+}
+@media screen and (max-width: 1188px){
+	.galleria .owl-next{
+		right: 0;
+		left: initial !important;
+	}
+	.galleria .owl-prev{
+		left: 0;
+		right: initial !important;
+	}
+}
+#share_nor{
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin: 20px 0 0 0;
+}
+#share_nor #res_norm{
+	float: left;
+	width: 70%;
+	margin: 0 15%;
+}
+#share_nor #res_norm p{
+	font-family: 'MerriweatherLightItalic';
+	color: #4D4D4D;
+	font-size: 95%;
+    line-height: 150%;
+}
+#share_nor #share a:last-child{
+	border-right: none;
+}
+#share_nor #share{
+	margin: 30px 0;
+    display: inline-block;
+}
+#share_nor #share span{
+	float: left;
+	font-family: 'MerriweatherLight' ;
+	color: #BFBFBF;
+	font-size: 90%;
+	text-transform: uppercase;
+	margin-right: 10px;
+	line-height: 182%;
+}
+#share_nor #share a#tw{
+	border-left:  1px solid #E6E6E6;
+}
+#share_nor #share a{
+	float: left;
+	height: 28px;
+	border-right: 1px solid #E6E6E6;
+	background-image: url(http://travesiasdigital.com/wp-content/themes/travesias_2017_m/img/share.png);
+	background-repeat: no-repeat;
+	padding: 0 7px;
+}
+#share_nor #share a#tw{background-position: 9px 0;width: 28px;}
+#share_nor #share a#fb{background-position: -35px 0;width: 25px;}
+#share_nor #share a#gp{background-position: -79px 0;width: 32px;}
+#share_nor #share a#pr{background-position: -123px 0;width: 35px;}
+#share_nor #share a#ma{background-position: -170px 0;width: 33px;}
+#share_nor #share a#tp{background-position: -213px 0;width: 33px;}
+.widget_toptennew{
+	float: left;
+	width: 100%;
+	margin-bottom: 40px;
+}
+.widget_toptennew .widgettitle{
+	color: #9A8A8A;
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #9A8A8A;
+	font-family: 'GenBkBasB';
+	font-size: 300%;
+	margin-bottom: 15px;
+}
+.widget_toptennew article{
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+.widget_toptennew .first{
+	position: relative;
+	margin-bottom: 30px;
+}
+.widget_toptennew .first #text_s{
+	
+}
+.widget_toptennew .first #wrap_in{
+	background-color: rgba(0,0,0,0.4);
+    width: 90%;
+    margin: 0 5%;
+    padding: 10% 0%;
+}
+.widget_toptennew .first #title{
+	font-family: 'MerriweatherBold';
+    color: #fff;
+    font-size: 103%;
+    width: 90%;
+    margin: 0 5%;
+}
+.widget_toptennew .other.uno{
+	padding-top: 15px;
+	border-top: 1px solid #E6E6E6;
+}
+.widget_toptennew .other{
+	margin-bottom: 20px;
+}
+.widget_toptennew .other img{
+	width: 82px;
+	height: 82px;
+}
+.widget_toptennew .other #text_s{
+	float: right;
+	width: 200px;
+}
+.widget_toptennew .other #title{
+	font-family: 'MerriweatherBold';
+	color: #4D4D4D;
+	font-size: 92%;
+}
+.widget_toptennew .other #btn_vm{
+    font-family: 'RobotoBlack';
+    font-size: 85%;
+    text-transform: uppercase;
+	color: #ccc;
+	margin-top: 7px;
+}
+.widget_club_trav{
+	float: left;
+	width: 300px;
+	margin-bottom: 40px;
+}
+.widget_club_trav #club_t{
+	float: left;
+	width: 100%;
+}
+.widget_club_trav #club_t img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    width: auto;
+}
+.load_more_unique{
+	float: left;
+	width: 100%;
+	margin: 0 0 40px 0;
+	text-align: center;
+}
+.load_more_unique span{
+	border: 1px solid #9A8A8A;
+    color: #9A8A8A;
+    font-family: 'RobotoLight';
+    font-size: 100%;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 5px 5%;
+    cursor: pointer;
+}
+/*Video*/
+#video_int_left{
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+#video_int_left #up_vid{
+	float: left;
+	width: 100%;
+	height: 280px;
+	position: relative;
+}
+#video_int_left #vid_play{
+	float: left;
+	width: 100%;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+#video_int_left #vid_play iframe{
+	width: 100%;
+	max-width: 100%;
+	height: 100%;
+	max-height: 100%;
+}
+#video_int_left #down_vid{
+	float: left;
+	width: 100%;
+}
+#video_int_left #down_vid h1{
+    float: left;
+    width: 100%;
+    font-family: 'MerriweatherBold';
+    color: #4D4D4D;
+    font-size: 120%;
+    margin: 20px 0 10px 0;
+	text-align: center;
+}
+#video_int_left #down_vid #left_v{
+	float: left;
+	width: 100%;
+	margin: 20px 0 0 0;
+	text-align: center;
+}
+#video_int_left #down_vid #right_v{
+	float: right;
+	width: 100%;
+	margin: 20px 0;
+}
+#video_int_left #down_vid #right_v #share{
+	float: left;
+    width: 100%;
+}
+#video_int_left #down_vid #right_v #share span {
+    float: left;
+    font-family: 'MerriweatherLight';
+    color: #BFBFBF;
+    font-size: 90%;
+    text-transform: uppercase;
+    margin-right: 10px;
+    line-height: 182%;
+}
+#video_int_left #down_vid #right_v #share a {
+    float: left;
+    height: 28px;
+    border-right: 1px solid #E6E6E6;
+    background-image: url(http://travesiasdigital.com/wp-content/themes/travesias_2017_m/img/share.png);
+    background-repeat: no-repeat;
+    padding: 0 7px;
+}
+#video_int_left #down_vid #right_v #share a#tw {
+    background-position: 9px 0;
+    width: 28px;
+}
+#video_int_left #down_vid #right_v #share a#tw {
+    border-left: 1px solid #E6E6E6;
+}
+#video_int_left #down_vid #right_v #share a#fb {
+    background-position: -35px 0;
+    width: 25px;
+}
+#video_int_left #down_vid #right_v #share a#gp {
+    background-position: -79px 0;
+    width: 32px;
+}
+#video_int_left #down_vid #right_v #share a#pr {
+    background-position: -123px 0;
+    width: 35px;
+}
+#video_int_left #down_vid #right_v #share a#ma {
+    background-position: -170px 0;
+    width: 33px;
+}
+#video_int_left #down_vid #right_v #share a#tp {
+    background-position: -213px 0;
+    width: 33px;
+}
+#video_int_left #down_vid #right_v #share a:last-child{
+	border-right: none;
+}
+#video_int_left #down_vid #left_v #date_v:after{
+	content: '';
+	float: left;
+	width: 50%;
+	margin: 10px 25% 0 25%;
+	background-color: #9A8A8A;
+	height: 1px;
+}
+#video_int_left #down_vid #left_v #date_v{
+	float: left;
+	width: 100%;
+	font-family: 'RobotoLight';
+	color: #666666;
+	text-transform: uppercase;
+	font-size: 90%;
+	margin-bottom: 15px;
+}
+#video_int_left #down_vid #left_v #info_v{
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+}
+#video_int_left #down_vid #left_v #info_v span{
+	display: block;
+	font-family: 'RobotoLight';
+	color: #666666;
+	font-size: 90%;
+	padding-left: 10px;
+}
+#video_int_right{
+	float: right;
+	width: 100%;
+	margin-bottom: 40px;
+}
+#video_int_right #titu_vi{
+	float: left;
+	width: 100%;
+	font-family: 'MerriweatherBold';
+	color: #4D4D4D;
+	font-size: 120%;
+	margin: 20px 0 10px 0;
+}
+#video_int_right #cont_vi{
+	float: left;
+	width: 100%;
+}
+#video_int_right #cont_vi p{
+	float: left;
+	width: 100%;
+	font-family: 'RobotoLight';
+	color: #4D4D4D;
+	font-size: 90%;
+	margin-bottom: 10px;
+}
+#zone_related{
+	float: left;
+	width: 100%;
+	margin-bottom: 40px;
+}
+#zone_related h3{
+	float: left;
+	width: 90%;
+	font-family: 'GenBkBasB';
+	margin: 0 5% 20px 5%;
+	color: #4D4D4D;
+	font-size: 300%;
+	margin-bottom: 20px;
+}
+#zone_related article {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+#zone_related .editor_uno {
+    float: left;
+    width: 300px;
+}
+#zone_related .editor_uno #text_s {
+    float: left;
+    width: 98%;
+    margin: 15px 1% 10px 1%;
+    text-align: center;
+}
+#zone_related .editor_dos {
+    float: left;
+    width: 100%;
+    margin: 0 20px;
+}
+#zone_related .editor_dos #text_s {
+    float: left;
+    width: 82%;
+    margin: 15px 9% 10px 9%;
+    text-align: center;
+}
+#zone_related #wrap_img{
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	height: 230px;
+	position: relative;
+}
+#zone_related #text_s{
+	float: left;
+	width: 90%;
+	margin: 10px 5%;
+}
+#zone_related article #title {
+	float: left;
+	width: 100%;
+    font-family: 'MerriweatherBold';
+    color: #4D4D4D;
+    font-size: 90%;
+    margin-bottom: 10px;
+}
+#zone_related article #excerpt {
+	float: left;
+	width: 100%;
+    font-family: 'RobotoLight';
+    color: #4D4D4D;
+    font-size: 85%;
+    margin-bottom: 10px;
+}
+#zone_related article #btn_vm {
+    text-align: center;
+    font-family: 'RobotoBlack';
+    color: #1A1A1A;
+    font-size: 80%;
+    text-transform: uppercase;
+}
+/*Foto*/
+#zone_foto_in{
+	float: left;
+	width: 100%;
+	margin-bottom: 40px;
+	margin-top: 30px;
+}
+#zone_foto_in #wrap_tit_im{
+	position: relative;
+	width: 100%;
+	top: 0;
+	left: 0;
+	text-align: center;
+	height: 110px;
+}
+#zone_foto_in #wrap_tit_im h1{
+	    font-family: 'MerriweatherBold';
+    color: #4D4D4D;
+    font-size: 200%;
+    width: 50%;
+    margin: auto;
+}
+#zone_foto_in #wrap_tit_im #meta_im{
+	float: left;
+    width: 100%;
+    margin: 10px 0;
+}
+#zone_foto_in #wrap_tit_im #meta_im #fecha{
+	text-transform: uppercase;
+    font-family: 'RobotoLight';
+    color: #666666;
+    font-size: 100%;
+    margin-bottom: 10px;
+    display: inline-block;
+	border-bottom : 1px solid #9A8A8A;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+#zone_foto_in #wrap_tit_im #meta_im span{
+	display: block;
+    font-family: 'RobotoLight';
+    color: #666;
+    font-size: 90%;
+}
+#zone_foto_in #wrap_tit_im #meta_im div{
+	display: block;
+	 font-family: 'RobotoLight';
+    color: #666;
+    font-size: 90%;
+}
+#zone_foto_in #wrap_tit_im #meta_im div span{
+	display: inline-block;
+}
+#zone_cont_img{
+	float: left;
+	width: 80%;
+	margin: 0 10% 40px 10%;
+	text-align: center;
+}
+#zone_cont_img p{
+	font-family: 'RobotoLight';
+	color: #4D4D4D;
+	font-size: 100%;
+	margin-bottom: 20px;
+}
+#zone_share{
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: center;
+}
+#zone_share #share{
+	display: inline-block;
+    text-align: center;
+}
+#zone_share #share span{
+	float: left;
+	font-family: 'MerriweatherLight' ;
+	color: #BFBFBF;
+	font-size: 90%;
+	text-transform: uppercase;
+	margin-right: 10px;
+	line-height: 182%;
+}
+#zone_share #share a#tw{
+	border-left:  1px solid #E6E6E6;
+}
+#zone_share #share a{
+	float: left;
+	height: 28px;
+	border-right: 1px solid #E6E6E6;
+	background-image: url(http://travesiasdigital.com/wp-content/themes/travesias_2017_m/img/share.png);
+	background-repeat: no-repeat;
+	padding: 0 7px;
+}
+#zone_share #share a#tw{background-position: 9px 0;width: 28px;}
+#zone_share #share a#fb{background-position: -35px 0;width: 25px;}
+#zone_share #share a#gp{background-position: -79px 0;width: 32px;}
+#zone_share #share a#pr{background-position: -123px 0;width: 35px;}
+#zone_share #share a#ma{background-position: -170px 0;width: 33px;}
+#zone_share #share a#tp{background-position: -213px 0;width: 33px;}
+#fotog_big{
+	float: left;
+    width: 100%;
+    margin-bottom: 40px;
+    position: relative;
+	height: 290px;
+	overflow:hidden;
+}
+#fotog_big #wrapper_bu{
+	position: absolute;
+    width: 100%;
+    height: 500px;
+}
+#fotog_big #wrapper_bu div img{
+	/*max-width: 100%;
+	width: auto;
+	max-height: 100%;*/
+	height: 100%;
+}
+.holder_bu_center #wrap_in{
+	display: block !important;
+}
+.txt_Center { margin: 50% 0% 0% 20% }
+
+.txt_h1 { font-size: 2em }
+
+.holder_bu { cursor: pointer }
+
+.holder_bu_awayL1 {
+	position: absolute;
+	top: 0;
+	left: -68%;
+	width: 70%;
+	height: 100%;
+	-webkit-transition: width 1s, height 1s, top 1s, left 1s;
+	-moz-transition: width 1s, height 1s, top 1s, left 1s;
+	-o-transition: width 1s, height 1s, top 1s, left 1s;
+	-ms-transition: width 1s, height 1s, top 1s, left 1s;
+	transition: width 1s, height 1s, top 1s, left 1s;
+}
+
+.holder_bu_awayL2 {
+  position: absolute;
+  top: 5%;
+  left: 0%;
+  width: 10%;
+  height: 30%;
+	visibility: hidden;
+  -webkit-transition: width 1s, height 1s, top 1s, left 1s;
+  -moz-transition: width 1s, height 1s, top 1s, left 1s;
+  -o-transition: width 1s, height 1s, top 1s, left 1s;
+  -ms-transition: width 1s, height 1s, top 1s, left 1s;
+  transition: width 1s, height 1s, top 1s, left 1s
+}
+
+.holder_bu_center {
+  position: absolute;
+	z-index: 10;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  height: 100%;
+  -webkit-transition: width 1s, height 1s, top 1s, left 1s;
+  -moz-transition: width 1s, height 1s, top 1s, left 1s;
+  -o-transition: width 1s, height 1s, top 1s, left 1s;
+  -ms-transition: width 1s, height 1s, top 1s, left 1s;
+  transition: width 1s, height 1s, top 1s, left 1s
+}
+
+.holder_bu_awayR1 {
+	position: absolute;
+	top: 0;
+	left: 97%;
+	width: 70%;
+	height: 100%;
+	-webkit-transition: width 1s, height 1s, top 1s, left 1s;
+	-moz-transition: width 1s, height 1s, top 1s, left 1s;
+	-o-transition: width 1s, height 1s, top 1s, left 1s;
+	-ms-transition: width 1s, height 1s, top 1s, left 1s;
+	transition: width 1s, height 1s, top 1s, left 1s;
+}
+
+.holder_bu_awayR2 {
+  position: absolute;
+  top: 5%;
+  left: 90%;
+  width: 10%;
+  height: 30%;
+  visibility: hidden;
+  -webkit-transition: width 1s, height 1s, top 1s, left 1s;
+  -moz-transition: width 1s, height 1s, top 1s, left 1s;
+  -o-transition: width 1s, height 1s, top 1s, left 1s;
+  -ms-transition: width 1s, height 1s, top 1s, left 1s;
+  transition: width 1s, height 1s, top 1s, left 1s
+}
+.holder_none{
+	position: absolute;
+  top: 0;
+  left: 90%;
+  width: 10%;
+  height: 100%;
+  visibility: hidden;
+}
+#nav_3 .next_3d{
+    position: absolute;
+    top: 34%;
+    height: 46px;
+    margin: auto !important;
+    color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+	left: 100%;
+    background: rgba(0,0,0,0.5) url(http://travesiasdigital.com/wp-content/themes/travesias_2017_m/img/arrow-right.png) center left;
+	cursor: pointer;
+	z-index: 11;
+}
+#nav_3 .prev_3d{
+    position: absolute;
+    top: 34%;
+    height: 46px;
+    margin: auto !important;
+    color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+	right: 100%;
+    background: rgba(0,0,0,0.5) url(http://travesiasdigital.com/wp-content/themes/travesias_2017_m/img/arrow-left.png) center left;
+	cursor: pointer;
+	z-index: 11;
+}
+@media screen and (max-width: 1190px){
+	#nav_3 .next_3d{
+		right: 0;
+		left: initial !important;
+	}
+	#nav_3 .prev_3d{
+		left: 0;
+		right: initial !important;
+	}
+}
+#fotog_big #thumbs_ctr {
+    float: left;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+	text-align: center;
+}
+#fotog_big #thumbs_ctr div {
+    display: inline-block;
+	margin: 0 5px;
+}
+.changlink {
+	float: left;
+	width: 100%;
+}
+#zone_related #wrap_gal{
+	    overflow: hidden;
+    float: left;
+    width: 100%;
+    margin-bottom: 40px;
+    min-height: 350px;
+    position: relative;
+}
+#zone_related #wrap_gal #wrapper_bu{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#zone_related #wrap_gal #wrapper_bu article{
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+#zone_related #wrap_gal #wrapper_bu article .vcenter img{
+	display: none;
+}
+
+div.pp_default .pp_description{
+	font-family:'RobotoBold';
+	font-size:13px;
+}
+#fotog_big #wrap_gal{
+	float:left;
+	width:100%;
+}
+#fotog_big #wrap_gal article{
+	float:left;
+	width:100%;
+	overflow:hidden;
+}
+.pp_gallery{
+	display:none !important;
+}

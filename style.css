@@ -1,0 +1,1003 @@
+/*
+ * Theme Name: Travesías 2017 Mobile 3.0
+ * Description: Travesías 2017 Mobile
+ * Author: Edwin Mogollon
+ * Author URI:  
+ * Version: 3.0 Alpha
+ */
+/*------------------------------------*\
+	_RESET
+\*------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: 'AtlasGroteskLightItalic';
+  src: url("fonts/AtlasGroteskLightItalic.eot");
+  src: url("fonts/AtlasGroteskLightItalic.eot") format("embedded-opentype"), url("fonts/AtlasGroteskLightItalic.woff2") format("woff2"), url("fonts/AtlasGroteskLightItalic.woff") format("woff"), url("fonts/AtlasGroteskLightItalic.ttf") format("truetype"), url("fonts/AtlasGroteskLightItalic.svg#AtlasGroteskLightItalic") format("svg");
+}
+@font-face {
+  font-family: 'AtlasGroteskBoldItalic';
+  src: url("fonts/AtlasGroteskBoldItalic.eot");
+  src: url("fonts/AtlasGroteskBoldItalic.eot") format("embedded-opentype"), url("fonts/AtlasGroteskBoldItalic.woff2") format("woff2"), url("fonts/AtlasGroteskBoldItalic.woff") format("woff"), url("fonts/AtlasGroteskBoldItalic.ttf") format("truetype"), url("fonts/AtlasGroteskBoldItalic.svg#AtlasGroteskBoldItalic") format("svg");
+}
+@font-face {
+  font-family: 'AtlasGroteskLight';
+  src: url("fonts/AtlasGroteskLight.eot");
+  src: url("fonts/AtlasGroteskLight.eot") format("embedded-opentype"), url("fonts/AtlasGroteskLight.woff2") format("woff2"), url("fonts/AtlasGroteskLight.woff") format("woff"), url("fonts/AtlasGroteskLight.ttf") format("truetype"), url("fonts/AtlasGroteskLight.svg#AtlasGroteskLight") format("svg");
+}
+@font-face {
+  font-family: 'AtlasGroteskBold';
+  src: url("fonts/AtlasGroteskBold.eot");
+  src: url("fonts/AtlasGroteskBold.eot") format("embedded-opentype"), url("fonts/AtlasGroteskBold.woff2") format("woff2"), url("fonts/AtlasGroteskBold.woff") format("woff"), url("fonts/AtlasGroteskBold.ttf") format("truetype"), url("fonts/AtlasGroteskBold.svg#AtlasGroteskBold") format("svg");
+}
+@font-face {
+  font-family: 'ChronicleTextG1Roman';
+  src: url("fonts/ChronicleTextG1Roman.eot");
+  src: url("fonts/ChronicleTextG1Roman.eot") format("embedded-opentype"), url("fonts/ChronicleTextG1Roman.woff2") format("woff2"), url("fonts/ChronicleTextG1Roman.woff") format("woff"), url("fonts/ChronicleTextG1Roman.ttf") format("truetype"), url("fonts/ChronicleTextG1Roman.svg#ChronicleTextG1Roman") format("svg");
+}
+@font-face {
+  font-family: 'ChronicleTextG1Italic';
+  src: url("fonts/ChronicleTextG1Italic.eot");
+  src: url("fonts/ChronicleTextG1Italic.eot") format("embedded-opentype"), url("fonts/ChronicleTextG1Italic.woff2") format("woff2"), url("fonts/ChronicleTextG1Italic.woff") format("woff"), url("fonts/ChronicleTextG1Italic.ttf") format("truetype"), url("fonts/ChronicleTextG1Italic.svg#ChronicleTextG1Italic") format("svg");
+}
+@font-face {
+  font-family: 'ChronicleTextG1Bold';
+  src: url("fonts/ChronicleTextG1Bold.eot");
+  src: url("fonts/ChronicleTextG1Bold.eot") format("embedded-opentype"), url("fonts/ChronicleTextG1Bold.woff2") format("woff2"), url("fonts/ChronicleTextG1Bold.woff") format("woff"), url("fonts/ChronicleTextG1Bold.ttf") format("truetype"), url("fonts/ChronicleTextG1Bold.svg#ChronicleTextG1Bold") format("svg");
+}
+@font-face {
+  font-family: 'ChronicleDispBlack';
+  src: url("fonts/ChronicleDispBlack.eot");
+  src: url("fonts/ChronicleDispBlack.eot") format("embedded-opentype"), url("fonts/ChronicleDispBlack.woff2") format("woff2"), url("fonts/ChronicleDispBlack.woff") format("woff"), url("fonts/ChronicleDispBlack.ttf") format("truetype"), url("fonts/ChronicleDispBlack.svg#ChronicleDispBlack") format("svg");
+}
+@font-face {
+  font-family: 'ChronicleTextG1BoldItalic';
+  src: url("fonts/ChronicleTextG1BoldItalic.eot");
+  src: url("fonts/ChronicleTextG1BoldItalic.eot") format("embedded-opentype"), url("fonts/ChronicleTextG1BoldItalic.woff2") format("woff2"), url("fonts/ChronicleTextG1BoldItalic.woff") format("woff"), url("fonts/ChronicleTextG1BoldItalic.ttf") format("truetype"), url("fonts/ChronicleTextG1BoldItalic.svg#ChronicleTextG1BoldItalic") format("svg");
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url("CenturyGothic.eot?#iefix") format("embedded-opentype"), url("CenturyGothic.woff") format("woff"), url("fonts/CenturyGothic.ttf") format("truetype"), url("CenturyGothic.svg#CenturyGothic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CenturyGothic-Bold';
+  src: url("CenturyGothic-Bold.eot?#iefix") format("embedded-opentype"), url("CenturyGothic-Bold.woff") format("woff"), url("fonts/CenturyGothic-Bold.ttf") format("truetype"), url("CenturyGothic-Bold.svg#CenturyGothic-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CenturyGothic-BoldItalic';
+  src: url("CenturyGothic-BoldItalic.eot?#iefix") format("embedded-opentype"), url("CenturyGothic-BoldItalic.woff") format("woff"), url("CenturyGothic-BoldItalic.ttf") format("truetype"), url("CenturyGothic-BoldItalic.svg#CenturyGothic-BoldItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CenturyGothic-Italic';
+  src: url("CenturyGothic-Italic.eot?#iefix") format("embedded-opentype"), url("CenturyGothic-Italic.woff") format("woff"), url("CenturyGothic-Italic.ttf") format("truetype"), url("CenturyGothic-Italic.svg#CenturyGothic-Italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/*@font-face {
+  font-family: 'RomainBPHeadlineBlack';
+  src: url("fonts/Romain_BP_Headline_Black.eot?#iefix") format("embedded-opentype"), url("fonts/Romain_BP_Headline_Black.woff") format("woff"), url("fonts/Romain_BP_Headline_Black.ttf") format("truetype"), url("fonts/Romain_BP_Headline_Black.svg#") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}*/
+@font-face {
+  font-family: 'RomainBPHeadlineBlack';
+  src: url("fonts/Romain_BP_Headline_Black.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+acronym, address, big, cite, code, del, dfn, em, img,
+ins, kbd, q, s, samp, small, strike, strong, sub, sup,
+tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody, tfoot, thead,
+tr, th, td, article, aside, canvas, details, embed, figure,
+figcaption, footer, header, hgroup, menu, nav, output,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	
+}
+a{ color:#000; text-decoration: none;}
+strong, b {font-weight:bold}
+em,i{font-style:italic}
+fieldset {border: 0;margin: 0;padding: 0;}
+img{vertical-align: middle;}
+textarea {resize: vertical;}
+h1, h2, h3, h4, h5, h6 {font-weight: normal; margin: 5%}
+img.alignright {float:right; margin:0 0 1em 1em; margin-left:7px;}
+img.alignleft {float:left; margin:0 1em 1em 0; margin-right:7px;}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+	float:left;
+	width: 100%;
+}
+#page_wrap{
+	
+}
+/*------------------------------------*\
+	_CLEARFIX
+\*------------------------------------*/
+/* http://nicolasgallagher.com/micro-clearfix-hack/ */
+/* For modern browsers */
+.cf:before,
+.cf:after{
+	content:"";
+	display:table;
+}
+.cf:after{
+	clear:both;
+}
+/*------------------------------------*\
+	_HEADER
+\*------------------------------------*/
+@font-face {
+	font-family: 'RobotoThin';
+	src: url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Thin.eot');
+	src: url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Thin.woff') format('woff'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Thin.ttf') format('truetype'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Thin.svg#Roboto-Thin') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'RobotoRegular';
+	src: url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Regular.eot');
+	src: url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Regular.woff') format('woff'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Regular.ttf') format('truetype'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'RobotoBlack';
+	src: url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Black.eot');
+	src: url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Black.woff') format('woff'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Black.ttf') format('truetype'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Black.svg#Roboto-Black') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'RobotoLight';
+	src: url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Light.eot');
+	src: url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Light.woff') format('woff'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Light.ttf') format('truetype'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Light.svg#Roboto-Light') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'RobotoBold';
+	src: url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Bold.eot');
+	src: url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Bold.woff') format('woff'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Bold.ttf') format('truetype'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Bold.svg#Roboto-Bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MerriweatherBold';
+	src: url('/wp-content/themes/travesias_2017_m/fonts/Merriweather-Bold.eot');
+	src: url('/wp-content/themes/travesias_2017_m/fonts/Merriweather-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Merriweather-Bold.woff') format('woff'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Merriweather-Bold.ttf') format('truetype'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Merriweather-Bold.svg#Merriweather-Bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MerriweatherLight';
+	src: url('/wp-content/themes/travesias_2017_m/fonts/Merriweather-Light.eot');
+	src: url('/wp-content/themes/travesias_2017_m/fonts/Merriweather-Light.eot?#iefix') format('embedded-opentype'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Merriweather-Light.woff') format('woff'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Merriweather-Light.ttf') format('truetype'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Merriweather-Light.svg#Merriweather-Bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MerriweatherLightItalic';
+	src: url('/wp-content/themes/travesias_2017_m/fonts/Merriweather-LightItalic.eot');
+	src: url('/wp-content/themes/travesias_2017_m/fonts/Merriweather-LightItalic.eot?#iefix') format('embedded-opentype'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Merriweather-LightItalic.woff') format('woff'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Merriweather-LightItalic.ttf') format('truetype'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Merriweather-LightItalic.svg#Merriweather-LightItalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'GenBkBasB';
+	src: url('/wp-content/themes/travesias_2017_m/fonts/GenBkBasB.eot');
+	src: url('/wp-content/themes/travesias_2017_m/fonts/GenBkBasB.eot?#iefix') format('embedded-opentype'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/GenBkBasB.woff') format('woff'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/GenBkBasB.ttf') format('truetype'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/GenBkBasB.svg#GenBkBasB') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'RobotoBlack';
+	src: url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Black.eot');
+	src: url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Black.woff') format('woff'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Black.ttf') format('truetype'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/Roboto-Black.svg#Roboto-Black') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'GenBkBasB';
+	src: url('/wp-content/themes/travesias_2017_m/fonts/GenBkBasB.eot');
+	src: url('/wp-content/themes/travesias_2017_m/fonts/GenBkBasB.eot?#iefix') format('embedded-opentype'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/GenBkBasB.woff') format('woff'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/GenBkBasB.ttf') format('truetype'),
+		 url('/wp-content/themes/travesias_2017_m/fonts/GenBkBasB.svg#GenBkBasB') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.head_mobile{
+	float: left;
+	width: 100%;
+}
+header{
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+header #menu_m_w{
+	float: left;
+	width: 100%;
+	border-bottom: 1px solid #666;
+	margin-bottom: 30px;
+}
+header #menu_m_w #btn_menu{
+	float: right;
+	width: 37px;
+	height: 37px;
+	background: url(/wp-content/themes/travesias_2017_m/img/btn_menu_open.png) no-repeat center;
+	background-size: contain;
+	margin: 10px 15px;
+	cursor: pointer;
+}
+header #menu_m_w #btn_menu.activo{
+	background: url(/wp-content/themes/travesias_2017_m/img/btn_menu_close.png) no-repeat center;
+}
+header #logo_travesias{
+	float: left;
+	width: 100%;
+	margin-bottom: 40px;
+	text-align: center;
+}
+header #logo_travesias img{
+	max-width: 80%;
+	height: auto;
+}
+header .btn_menu{
+	float: left;
+	width: 100%;
+	display: none;
+}
+header #menu_display{
+	float: left;
+	width: 80%;
+	margin: 0 10%;
+}
+header #menu_display .search_f{
+	float: left;
+    width: 100%;
+    text-align: right;
+    border-bottom: 1px solid #B3B3B3;
+}
+header #menu_display .search_f .search{
+	background: transparent url(/wp-content/themes/travesias_2017_m/img/search.png) no-repeat center right;
+    border: none;
+    content: none;
+    padding: 0;
+    color: transparent;
+    background-size: contain;
+    height: 25px;
+    border-radius: 0;
+    cursor: pointer;
+    width: 20%;
+    float: right;
+    margin: 3px 0 0 0;
+}
+header #menu_display .search_f #s{
+	background-color: transparent;
+    padding: 0px 0 15px 0;
+    margin: 0;
+    font-size: 100%;
+    border: none;
+    font-family: 'RobotoThin';
+    color: #666;
+    width: 75%;
+    float: left;
+	outline-width: 0;
+}
+header #menu_display .search_f #s::-webkit-input-placeholder {font-family: 'RobotoThin';color: #666;}
+header #menu_display .search_f #s::-moz-placeholder { font-family: 'RobotoThin';color: #666;}
+header #menu_display .search_f #s:-ms-input-placeholder { font-family: 'RobotoThin';color: #666;}
+header #menu_display .search_f #s:-moz-placeholder { font-family: 'RobotoThin';color:#666;}
+header #social{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+header #social .ico{
+	width: 30px;
+	height: 30px;
+	margin: 5px 0 0 24px;
+	display: inline-block;
+	background-image: url(/wp-content/themes/travesias_2017_m/img/header_sprite.png);
+	background-repeat: no-repeat;
+}
+header #social .ico.facebook{background-position:  8px 0;margin-left: 0;}
+header #social .ico.twitter{background-position: -34px 0;}
+header #social .ico.instagram{background-position: -87px 0;}
+header #social .ico.google{background-position: -136px 0;}
+#menu-header{
+	margin: 10px 0;
+    float: left;
+    width: 100%;
+}
+#menu-header li{
+	display: block;
+    padding: 7px 0;
+}
+#menu-header li a{
+    text-transform: uppercase;
+    font-size:100%;
+    color: #000;
+    font-family: "CenturyGothic-Bold", Helvetica, sans-serif;
+}
+#menu-footer{
+	margin: 10px 0;
+    float: left;
+    width: 100%;
+}
+#menu-footer li{
+	display: block;
+    padding: 3px 0;
+}
+#menu-footer li a{
+	color: #4D4D4D;
+    font-family: 'RobotoLight';
+    font-size: 95%;
+}
+#mobile_header{
+	float: left;
+	width: 100%;
+}
+#mobile_header section{
+	float: left;
+	width: 100%;
+	margin-bottom: 25px;
+}
+.slider {
+    max-width: 1290px;
+    margin: 0 auto 20px auto;
+}
+.limit{
+	max-width: 1000px;
+    margin: 10px auto;
+}
+.no_limit{
+	width: 100%;
+    margin: 10px auto;
+}
+
+.limit_short{
+	max-width: 440px !important;
+	margin: 10px auto;
+}
+.limit_mo{
+	width: 90%;
+	margin: 0 5%;
+}
+/*------------------------------------*\
+	_FOOTER
+\*------------------------------------*/
+
+
+/*------Footer--------*/
+.section-newsletter {
+  width: 100%;
+  margin: 0 auto;
+  height: 370px;
+  margin-top: 55px;
+  margin-bottom: 35px;
+  position: relative;
+  background: #e7e7e7;
+  display: inline-block;
+}
+
+#contenido .articulo-principal .banner-prueba{
+  /*background-color:black;*/
+  height: 250px;
+  width:970px;
+  
+  z-index: 1;
+  margin:45px auto;
+  margin-bottom: -60px;
+  text-align: center;
+  display: block;
+  overflow:hidden;
+}
+
+.section-newsletter form {
+  width: 80%;
+  overflow: hidden;
+  margin: 0px auto;
+}
+
+.section-newsletter label {
+  display: inline-block;
+  float: left;
+  width: 90%;
+  margin-top: 20px;
+  margin-right: 1%;
+  font-size: 12.66px;
+  line-height: 30px;
+  font-family: "CenturyGothic-Bold", Helvetica, sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: left;
+  position: relative;
+}
+.section-newsletter input {
+  height: 28px;
+  padding: 0px 0px 0px 3px;
+  width: 100%;
+  font-family: "CenturyGothic-Bold", Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  line-height: 28px;
+  background: #e7e7e7;
+  border: 1px solid #929497;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.section-newsletter input::-webkit-input-placeholder {
+   color: #636363;
+}
+
+.section-newsletter input:-moz-placeholder { /* Firefox 18- */
+   color: #636363;  
+}
+
+.section-newsletter input::-moz-placeholder {  /* Firefox 19+ */
+   color: #636363;  
+}
+
+.section-newsletter input:-ms-input-placeholder {  
+   color: #636363;  
+}
+
+.section-newsletter select {
+  color: #636363 !important; 
+  line-height: 28px !important; 
+  font-size: 12px !important; 
+  padding: 0px 0px 0px 3px !important;
+  height: 30px !important;
+  margin: 0px !important; 
+}
+
+.section-newsletter .boton-suscribete {
+  float: left;
+  width: 100%;
+  height: 30px;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: center;
+  background: transparent;
+  border: 0px;
+  color: #636363;
+  font-family: "CenturyGothic-Bold", Helvetica, sans-serif;
+  font-size: 12.66px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.section-newsletter .boton-suscribete p {
+  padding-top: 15px;
+  font-size: 12.66px;
+  font-family: "CenturyGothic-Bold", Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #636363;
+}
+
+.section-newsletter .campo-contenedor {
+  position: relative;
+  width: 14.6%;
+  float: left;
+  margin: 20px 9px;
+}
+.section-newsletter .campo-contenedor label.error{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: red;
+  font-weight: normal;
+
+  font-size: 10px;
+
+  width: 200px; 
+  right: auto;
+  left: 0px;
+  top: 5px;
+}
+
+.section-newsletter .campo-contenedor input.error{
+  border: 1px solid red;
+}
+.section-newsletter .campo-contenedor select{
+  width: 98%;
+  height: 28px;
+  background: none;
+  font-family: "CenturyGothic-Bold", Helvetica, sans-serif;
+  font-size: 10px;
+  color: #8e8e8e;
+  background: url(/wp-content/themes/travesias_2017/img/select.png) no-repeat 97% 50%;
+  border: 1px solid #929497;
+  border-radius: 4px;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  padding-left: 3px;
+  padding-top: 6px;
+  text-transform: uppercase;
+}
+
+.section-newsletter p{
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+#main-footer {
+  padding: 70px;
+  text-align: center;
+}
+
+#menu-footer {
+    display: inline-block;
+    margin: auto;
+}
+
+#main-footer #widgets {
+  max-width: 1120px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  display: inline-block;
+}
+#main-footer #widgets .widget {
+  width: 100%;
+  float: left;
+  border-right: 1px solid #c2c2c2;
+  text-align: center;
+  padding: 0 2%;
+}
+#main-footer #widgets .widget.instagram {
+  width: 100%;
+}
+#main-footer #widgets .widget.facebook {
+  border-right: 0;
+}
+#main-footer #widgets .widget h2 {
+  font-size: 17px;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+#main-footer #widgets .widget h2 a{
+  color: #000000;
+  cursor: default;
+  text-transform: none;
+}
+#main-footer #widgets .widget h2 span {
+  color: #000;
+  text-transform: lowercase;
+  font-size: 14px;
+  font-family: "AtlasGroteskLight", Helvetica, sans-serif;
+}
+#main-footer #widgets .widget.facebook h2 span {
+  text-transform: none;
+}
+
+#main-footer #widgets .widget p {
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+body.portafolio, body.portafolio #main-footer, body.portafolio #main-footer #widgets{
+
+  background-color: #f7dfd1;
+
+  }
+
+#travesias-footer {
+  max-width: 100%;
+  height: 250px;
+  margin: 0 auto -34px;
+  background: #000000;
+  border-top: 1px solid #e1e1e1;
+  padding-top: 40px;
+}
+#travesias-footer h2 {
+  width: 262px;
+  height: 76px;
+  background-image: url(/wp-content/themes/travesias_2017/img/travesias-logo.png);
+  filter: invert(100%);
+  background-size: 100% auto;
+  margin: 0 auto;
+  margin-bottom: 27px;
+}
+.contenedor-logos {
+  width: 100%;
+  text-align: center;
+}
+#travesias-footer h2#logo-local {
+  display: inline-block;
+  width: 96px;
+  height: 35px;
+  background-image: url(/wp-content/themes/travesias_2017/img/local-logo.png);
+  background-repeat: no-repeat;
+  filter: none;
+}
+#travesias-footer h2#logo-sub-travesias {
+  display: inline-block;
+  width: 96px;
+  height: 35px;
+  background-image: url(/wp-content/themes/travesias_2017/img/travesias-sub-logo.png);
+  background-repeat: no-repeat;
+  filter: none; 
+}
+#travesias-footer h2 a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-indent: -99999px;
+}
+#travesias-footer p {
+  text-align: center;
+  font-family: "CenturyGothic-Bold", Helvetica, sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+#travesias-footer p a {
+  color: #ffffff;
+  text-transform: lowercase;
+}
+
+#footer-nav {
+  margin-bottom: 25px;
+}
+#footer-nav ul li {
+  float: left;
+  margin: 0 5px;
+}
+#footer-nav ul li a {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "CenturyGothic-Bold", Helvetica, sans-serif;
+  font-size: 10px;
+  margin-right: 5px;
+}
+
+div#widgets {
+    background: white;
+    padding: 70px 0;
+    margin-bottom: unset !important;
+}
+
+
+#main-footer {
+    background: unset;
+    padding: unset;
+    display: block;
+}
+    .section-newsletter label{
+      margin-bottom: 20px;
+    }
+    .section-newsletter .campo-contenedor{
+      width: 100%;
+      margin: 0;
+      margin-bottom: 20px;
+    }
+    .section-newsletter input{
+      width: 90%;
+    }
+    .section-newsletter .campo-contenedor select{
+      width: 91%;
+    }
+/* ------/Footer-------- */
+
+footer{
+	float: left;
+    width: 100%;
+}
+footer #social{
+	text-align: center;
+	border-top: 1.5px solid #ccc;
+	border-bottom: 1.5px solid #ccc;
+	padding: 10px 0;
+	margin-bottom: 40px;
+}
+footer #social .ico{
+	width: 30px;
+	height: 30px;
+	margin: 0 15px;
+	display: inline-block;
+	background-image: url(/wp-content/themes/travesias_2017_m/img/header_sprite.png);
+	background-repeat: no-repeat;
+}
+footer .ico.facebook{background-position:  8px 0;margin-left: 0;}
+footer .ico.twitter{background-position: -34px 0;}
+footer .ico.instagram{background-position: -87px 0;}
+footer .ico.google{background-position: -136px 0;}
+footer #copy{
+    margin-bottom: 30px;
+    float: left;
+    width: 100%;
+}
+.single footer #copy #cp{
+	margin-bottom: 62px;
+}
+footer #copy #cp{
+	border-top: 1px solid #CCCCCC;
+	padding-top: 15px;
+	float: left;
+	text-transform: uppercase;
+	color: #000;
+	font-family: 'RobotoLight';
+	font-size: 13px;
+	margin-top: 10px;
+	text-align: center;
+	width: 100%;
+}
+footer #part{
+	float: right;
+	width: 100%;
+	text-align: center;
+}
+footer #part a{
+	width: 50%;
+    display: block;
+    float: left;
+    text-align: center;
+    margin-bottom: 15px;
+}
+footer #down{
+	float: left;
+	width: 90%;
+	margin: 0 5% 30px 5%;
+}
+footer #down #menu_f{
+	float: left;
+    width: 26.6%;
+}
+footer #down #menu_f ul{
+    padding: 15px 14% 0 30%;
+    list-style-type: none;
+    line-height: 22px;
+}
+footer #down #menu_f li{
+	display: block;
+}
+footer #down #menu_f li a{
+	color: #4D4D4D;
+	font-family: 'RobotoLight';
+	font-size: 86%;
+}
+footer #down #quote{
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+}
+footer #down #quote h2{
+	font-family: 'RobotoBold';
+	color: #000;
+	font-size: 300%;
+}
+footer #down #quote p{
+	font-family: 'RobotoLight';
+	color: #4D4D4D;
+	font-size: 85%;
+	line-height: 19px;
+	letter-spacing:2px;
+}
+footer #down #news{
+	float: left;
+	width: 100%;
+}
+footer #down #news h2{
+	color: #4D4D4D;
+    font-family: 'MerriweatherBold';
+    font-size: 174%;
+    line-height: 135%;
+    margin-top: 15px;
+}
+footer #down #news p{
+	font-family: 'RobotoLight';
+	color: #4D4D4D;
+	font-size: 85%;
+	line-height: 19px;
+	margin-bottom: 20px;
+}
+footer #down #news input[type="text"]{
+	width: 85%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 7px;
+    margin-bottom: 20px;
+	font-size: 75%;
+	padding-left: 5%;
+	outline: none;
+}
+footer #down #news input[type="submit"]{
+    width: 35%;
+    padding: 0;
+    border: 2px solid #9A8A8A;
+    background: none;
+    height: 45px;
+	cursor: pointer;
+	font-family: 'RobotoLight';
+	font-size: 80%;
+	color: #9A8A8A;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	outline: none;
+}
+footer ::-webkit-input-placeholder {font-family: 'RobotoLight';color: #000;}
+footer ::-moz-placeholder { font-family: 'RobotoLight';color: #000;}
+footer :-ms-input-placeholder { font-family: 'RobotoLight';color: #000;}
+footer :-moz-placeholder { font-family: 'RobotoLight';color:#000;}
+.conclave{
+	display: none;
+}
+.vcenter {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+/*Boton Leer mas*/
+.btn_lm{
+	color: #9A8A8A;
+    font-family: 'RobotoLight';
+    font-size: 70%;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 1.5px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.tb{
+	float: left;
+	width: 100%;
+	color: #4D4D4D;
+    font-size: 250%;
+    margin-bottom: 15px;
+    line-height: 80%;
+    letter-spacing: 1.5px;
+    font-family: "RomainBPHeadlineBlack", Times, serif;
+}
+.tb a{
+	color: #000;
+}
+.tn{
+    letter-spacing: 2px;
+}
+.rn{
+	letter-spacing: 1.5px;
+}
+.single #cont_in ol li,
+.single #cont_in ul li{
+	font-family: 'RobotoLight';
+    color: #4D4D4D;
+    font-size: 90%;
+    margin-bottom: 50px;
+    text-align: justify;
+    line-height: 160%;
+    letter-spacing: 1.5px;
+}
+#nps{
+	color: #9A8A8A;
+    font-family: 'RobotoLight';
+    font-size: 70%;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 1.5px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+#infscr-loading div{
+	color: #9A8A8A;
+    font-family: 'RobotoLight';
+    font-size: 70%;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-top: 10px;
+	float: left;
+	width: 100%;
+}
+#infscr-loading img{
+	visibility: hidden;
+}
+#zona_1 article {
+	width: 100%;
+}
+
+/* ---------------- CUSTOM STYLES ---------------- */
+.menu a {
+    font-family: 'RobotoRegular';
+    text-transform: uppercase;
+    font-size: 100%;
+    color: #666666;
+}
+
+.menu li {
+    display: block;
+    padding: 7px 0;
+}
+
+#menu_display ul#menu-menu-principal {
+    margin: 10px 0;
+    float: left;
+    width: 100%;
+}
+#footer-nav ul li {
+    display: contents;
+}

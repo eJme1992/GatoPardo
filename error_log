@@ -1,0 +1,1 @@
+[06-Mar-2017 15:05:18 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/laborat4/public_html/travesias/wp-content/themes/travesias_2017/index.php on line 1

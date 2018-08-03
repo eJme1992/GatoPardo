@@ -1,0 +1,118 @@
+html {
+    margin-top: 0px !important;
+}
+header {
+    margin-bottom: 0px !important;
+}
+header .fa-align-justify{
+	margin-top:4px;
+}
+header #munu_r {
+   margin-top:5px;
+   display: none !important; 
+}
+/*BOTONES PARA EL MENU OCULTAR Y MOSTAR*/
+#menu-menu-principal {
+	margin-top: 15px;
+}
+.menu li {
+    display: block !important;;
+    padding: 7px !important;;
+}
+
+#logo_menu i {
+	margin-top: 0.19em;
+}
+.fa-times{
+	color:red;
+}
+.menu{
+  display: none;
+  background-color: #fff;
+}
+
+/*FIN*/
+
+/*home*/
+.imagen_ar {background-size: cover; background-position:center; min-height:60vmin; display: block !important;}
+
+#home .wrap_in{ margin-bottom:8px; }
+
+/*footer*/
+footer .w3-center{  font-family: "AtlasGroteskLight", Helvetica, sans-serif  !important;}
+.ico_r{margin-left:10px; margin-right:10px;}
+
+hr {border-top: 1.5px solid #CCCCCC !important; } 
+
+/* categorias */
+.pagination {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.screen-reader-text{display:none;}
+.page-numbers:hover {
+    color: #000 !important;
+    background-color: #ccc !important;
+}
+.w3-bar .page-numbers {
+    white-space: normal;
+}
+a:active, a:hover {
+    outline-width: 0;
+}
+
+.w3-btn, .page-numbers {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+   
+}
+
+/* singler */
+.cabezera {
+	margin-top: 120px;
+}
+#single .cabezera  .fecha {
+	margin-top: 30px;
+}
+
+.contenidopost{
+	margin-top:30px;
+	text-align: justify;
+}
+
+.wp-image-213373, .size-full  {
+    display: block !important;
+    max-width: 100% !important;
+    height: auto !important;
+    vertical-align: middle;
+}
+
+#carrusel .w3-container, .w3-panel {
+    margin-top: 40vmin;
+    padding: 0px;
+
+}
+.mySlides {
+    display: none;
+}
+.active {
+    display: block;
+}
+.w3-display-right, .w3-display-left {
+    
+    top: 33%;
+}
+/* general */
+#titulo h4 b {
+     color: #000 !important;
+    font-family: "CenturyGothic-Bold"  !important;
+}
+.tb {
+    color: #000;
+ }

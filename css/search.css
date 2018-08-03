@@ -1,0 +1,98 @@
+#zone_titu_s{
+	float: left;
+    width: 90%;
+    border-bottom: 1px solid #9A8A8A;
+    padding: 15px 5% 20px 5%;
+    text-align: center;
+    margin-bottom: 40px;
+	font-family: 'RobotoThin';
+	font-size: 135%;
+}
+#zone_titu_s span{
+	font-family: 'RobotoBold';
+}
+#zone_search{
+	float: left;
+	width: 90%;
+	margin: 0 5%;
+	margin-bottom: 100px;
+}
+#zone_search #cont_in{
+	float: left;
+	width: 100%;
+}
+#zone_search article{
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+#zone_search article #left{
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+}
+#zone_search article #left #wrap_im{
+	float: left;
+	width: 100%;
+	border: 0px solid #000000;
+	overflow: hidden;
+	height: 170px;
+}
+#zone_search article #right{
+	float: right;
+	width: 100%;
+}
+#zone_search article #right #date{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 7px;
+	font-family: 'RobotoLight';
+	color: #666;
+	font-size: 90%;
+}
+#zone_search article #right #titu{
+	float: left;
+	width: 100%;
+	margin-bottom: 5px;
+	font-family: 'MerriweatherBold';
+	color: #4D4D4D;
+	font-size: 100%;
+}
+#zone_search article #right #resu{
+	float: left;
+	width: 100%;
+	font-family: 'RobotoLight';
+	color: #4D4D4D;
+	font-size: 90%;
+}
+#zone_divider{
+	float: left;
+	width: 100%;
+	margin-bottom: 50px;
+	border-bottom: 1px solid #9A8A8A;
+}
+#navinfi{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+#navinfi .navinf{
+	visibility: hidden;
+}
+.click_load{
+    border: 1px solid #9A8A8A;
+    color: #9A8A8A;
+    font-family: 'RobotoLight';
+    font-size: 100%;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 5px 5%;
+    margin-top: 14px;
+	cursor: pointer;
+}
+#infscr-loading{
+	float: left;
+	width: 100%;
+	text-align: center;
+}
